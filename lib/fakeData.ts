@@ -1,0 +1,45 @@
+const fakeData = {
+  us: {
+    letters: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  },
+  es: {
+    letters: "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ",
+    middleName: [
+      "Antonio",
+      "José",
+      "Manuel",
+      "Francisco",
+      "Juan",
+      "David",
+      "Luis",
+      "Javier",
+      "Carlos",
+      "Jesús",
+      "Miguel",
+      "Alejandro",
+      "Rafael",
+      "Pedro",
+      "Ángel",
+      "Santiago",
+      "Diego",
+      "Álvaro",
+      "Fernando",
+      "Joaquín",
+      "Adrián",
+      "Hugo",
+      "Pablo",
+      "Rubén",
+      "Sergio",
+      "Marcos",
+      "Iván",
+      "Enrique",
+      "Ramón",
+      "Vicente",
+    ],
+  },
+  de: {
+    letters: "aäbcdefghijklmnoöpqrstuüvwxyzAÄBCDEFGHIJKLMNOÖPQRSßTUÜVWXYZ",
+  },
+};
+
+export default fakeData;
